@@ -2,15 +2,21 @@
 
 ## Problem statement description
 
-- In this task, you are asked to create a Chip Input component that allows users to input a series of tags or keywords. The component will display these tags as "chips" (small labels), which users can add and remove dynamically.
+- In this task, you are asked to create a **User Profile component** that displays user image, name and button to toggle visibility of user bio
 
 ## Features
 
-1. Input Field: Users can type text into an input field.
-2. Add chips: When the user presses the "Enter" key, the typed text will be added as a new chip (tag). Empty or whitespace-only chips should not be added
-3. Remove chips: Users can delete a chip by clicking the "X" button next to it.
-4. Horizontal display: The chips should be displayed in a horizontal list.
-5. Persistence: The list of chips should be maintained even when the component re-renders.
+1. Display the user's profile image in a circular frame at the top of the component.
+2. Show the user's full name prominently below the profile image.
+3. Include a button labeled "Show Bio" or "Hide Bio" to toggle the visibility of the user's bio.
+4. When the bio is visible, display a short description or bio of the user below the button.
+5. The toggle button should update its label based on the current state (show/hide bio).
+6. The component should be centered and visually appealing, with appropriate spacing and alignment.
+7. Use a card-like container with a subtle border and rounded corners for the profile.
+8. Ensure accessibility: the button should be keyboard accessible and have appropriate aria-labels.
+9. Responsive design: the component should look good on both desktop and mobile screens.
+10. Use a default avatar image if no user image is provided.
+11. Support for emoji or icons in the bio (e.g., coffee cup emoji).
 
 ## Reference UI / Expected Outcome
 
