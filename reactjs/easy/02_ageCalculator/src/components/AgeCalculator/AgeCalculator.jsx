@@ -34,12 +34,19 @@ const AgeCalculator = () => {
 
   return (
     <div className="age-calculator-container">
+      <h2>Age Calculator</h2>
       <DatePicker
         label="Enter / Select a birthdate:"
         dateValue={dateValue}
         handleDateChange={handleDateChange}
       />
-      <button onClick={calculateAgeHandler}>Calculate Age</button>
+      <button
+        disabled={!dateValue}
+        className="calculate-button"
+        onClick={calculateAgeHandler}
+      >
+        Calculate Age
+      </button>
       {result.isShow && (
         <div className="result-container">
           <p>{result.finalResult}</p>

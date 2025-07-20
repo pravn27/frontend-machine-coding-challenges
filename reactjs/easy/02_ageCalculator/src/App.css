@@ -14,3 +14,63 @@ div.app-container {
   align-items: center;
   padding: 20px;
 }
+
+div.age-calculator-container {
+  width: 40vw;
+  height: 30vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  background-color: lightblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.date-container > span.date-label {
+  font-weight: bold;
+  line-height: 35px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+div.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.calculate-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+button.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+div.result-container > span.result-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+div.result-container > p {
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+}
