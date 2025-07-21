@@ -1,14 +1,29 @@
 import React, { useState } from "react";
 
-const Accordion = ({ title, content }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const Accordion = ({ items }) => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const onClickHandler = (index) => {
+    setOpenIndex(index === openIndex ? null : index);
+  };
+
   return (
     <div className="accordion-container">
-      <button onClick={() => setIsOpen(!isOpen)}>
-        {title}
-        {isOpen ? "-" : "+"}
-      </button>
-      {isOpen && <p>{content}</p>}
+      {items.map((item, index) => {
+        return (
+          <div key={index} className="accordion-item">
+            <button
+              className="accordion-title"
+              onClick={() => onClickHandler(index)}
+            >
+              {item.title}
+            </button>
+            {openIndex === index && (
+              <div className="accordion-content">{item.content}</div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 };

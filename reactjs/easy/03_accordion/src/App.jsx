@@ -3,21 +3,28 @@ import "./App.css";
 import Accordion from "./components/Accordion";
 
 function App() {
+  const items = [
+    {
+      title: "JavaScript Basics",
+      content: "Learn variables, functions, and loops in JavaScript.",
+    },
+    {
+      title: "React.js Overview",
+      content: "Understand components, state, and props in React.",
+    },
+    {
+      title: "Node.js",
+      content: "Basics of server-side development with Node.js.",
+    },
+    {
+      title: "Full-Stack Development",
+      content: "Build full-stack apps with React and Node.js.",
+    },
+  ];
   return (
     <div className="app-container">
       <h1>Accordion component</h1>
-      <Accordion
-        title="Accordion 1"
-        content="This is the content of Accordion 1."
-      />
-      <Accordion
-        title="Accordion 2"
-        content="This is the content of Accordion 2."
-      />
-      <Accordion
-        title="Accordion 3"
-        content="This is the content of Accordion 3."
-      />
+      <Accordion items={items} />
     </div>
   );
 }
