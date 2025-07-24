@@ -17,6 +17,9 @@ const Accordion = ({ items }) => {
               onClick={() => onClickHandler(index)}
             >
               {item.title}
+              <span className="accordion-icon">
+                {openIndex === index ? "-" : "+"}
+              </span>
             </button>
             {openIndex === index && (
               <div className="accordion-content">{item.content}</div>

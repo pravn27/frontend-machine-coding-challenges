@@ -14,3 +14,58 @@ div.app-container {
   align-items: center;
   padding: 20px;
 }
+
+div.accordion-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div.accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+div.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.accordion-title {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button.accordion-title:hover {
+  background-color: #e0e0e0;
+}
+
+div.accordion-content {
+  padding: 15px;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+  font-size: 16px;
+  color: #666;
+}
+
+span.accordion-icon {
+  margin-left: 10px;
+  float: right;
+  font-size: 18px;
+}
