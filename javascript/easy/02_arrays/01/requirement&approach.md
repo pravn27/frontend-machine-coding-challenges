@@ -34,8 +34,9 @@
 - Time complexity: O(n)
 - Space complexity: O(n)
 
-### Approach - 3
+### Approach (Brute Force Approach) - 3
 
 - using Array filter and indexOf methods
+- using for loop & indexOf result array
 - Time complexity: O(n^2) - indexOf inside filter is expensive
 - Space complexity: O(1)
