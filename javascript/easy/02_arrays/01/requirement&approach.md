@@ -25,11 +25,17 @@
 ### Approach - 1
 
 - using Set()
+- Time complexity: O(n)
+- Space complexity: O(n)
 
 ### Approach - 2
 
-- using Array filter and indexOf methods
+- using Object / Hash Map approach (manual tracking)
+- Time complexity: O(n)
+- Space complexity: O(n)
 
 ### Approach - 3
 
-- using Object (manual tracking)
+- using Array filter and indexOf methods
+- Time complexity: O(n^2) - indexOf inside filter is expensive
+- Space complexity: O(1)
