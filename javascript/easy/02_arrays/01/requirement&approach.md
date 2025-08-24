@@ -28,4 +28,8 @@
 
 ### Approach - 2
 
-- Array filter method
+- using Array filter and indexOf methods
+
+### Approach - 3
+
+- using Object (manual tracking)
