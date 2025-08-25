@@ -24,7 +24,9 @@
 
 - Naive approach (Simple & straightforward)
   - For loop (loop each char) and array includes() method
+- Time complexity: O(n)
 
 ### Approach - 2
 
-- using for loop and Set()
+- using for loop and vowels Set(), Set has() method
+- Time complexity: O(n)
