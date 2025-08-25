@@ -33,5 +33,3 @@
 - Two pointer approach
 - Time Complexity: O(n)
 - Space Complexity: O(1)
-
-### Approach (Brute Force Approach) - 3
