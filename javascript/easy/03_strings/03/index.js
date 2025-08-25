@@ -49,7 +49,7 @@ console.log(countVowels_A1_1("amad@aM#---aA hello"));
 console.log(countVowels_A1_1("hello welcome ---"));
 console.log(countVowels_A1_1("hello welcome to javascript coding challenges"));
 
-// Approach 2 - For loop (loop each char) and Set()
+// Approach 2 - For loop (loop each char) and Set() has() method
 const countVowels_A2 = (str) => {
   if (typeof str !== "string") {
     throw new Error("Enter valid input string");

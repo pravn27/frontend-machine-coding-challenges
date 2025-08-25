@@ -25,8 +25,10 @@
 - Naive approach (Simple & straightforward)
   - For loop (loop each char) and array includes() method
 - Time complexity: O(n)
+- Space complexity: O(1)
 
 ### Approach - 2
 
 - using for loop and vowels Set(), Set has() method
 - Time complexity: O(n)
+- Space complexity: O(1)
