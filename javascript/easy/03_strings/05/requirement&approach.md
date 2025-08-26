@@ -38,3 +38,9 @@
 - using Object char frequency count & compare count
 - Time complexity: O(n)
 - Space complexity: O(n)
+
+### Approach - 3
+
+- using Map char frequency count & compare count
+- Time complexity: O(n)
+- Space complexity: O(n)
