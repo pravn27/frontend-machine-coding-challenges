@@ -62,3 +62,12 @@ h2.title {
 .content-data li {
   margin: 4px 0;
 }
+
+div.profile-card-container {
+  border: 1px solid;
+  padding: 4px;
+  background-color: lightblue;
+  width: 50%;
+  border-radius: 10px;
+  margin: auto;
+}

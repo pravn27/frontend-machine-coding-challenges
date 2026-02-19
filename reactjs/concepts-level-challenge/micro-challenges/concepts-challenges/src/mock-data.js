@@ -20,3 +20,10 @@ export const aboutMe_mockData = {
     },
   },
 };
+
+export const profileCard_mockData = {
+  name: "Praveen Shekarappa",
+  role: "SSE Frontend Engineer",
+  avatarUrl:
+    "https://lh3.googleusercontent.com/a/ACg8ocIhYwYwTV1HqHbSOd5R4DcXQmiEUbvF1pP7xXaKDGpwEfUT_ujB=s83-c-mo",
+};

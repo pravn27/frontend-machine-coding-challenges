@@ -1,4 +1,4 @@
-import { aboutMe_mockData } from "../mock-data/aboutMe.js";
+import { aboutMe_mockData } from "../mock-data.js";
 
 // Bio component
 const Bio = ({ data }) => {
