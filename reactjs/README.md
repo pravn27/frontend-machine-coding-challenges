@@ -1,4 +1,4 @@
-# ReactJS machine coding challenges
+# ReactJS machine coding challenges with Javascript
 
 > Everything about ReactJS machine coding challenges, includes below components
 
